@@ -35,9 +35,9 @@ const Contents = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ amount: 0.4 }}
-        className="text-5xl text-center font-bold text-gray-800"
+        className="text-2xl md:text-5xl text-center font-bold text-gray-800"
       >
-        MacBook Pro 15" Retina Display
+        MacBook Pro
       </motion.h2>
       <motion.div
         variants={variantContent}
@@ -59,12 +59,12 @@ const Contents = () => {
         viewport={{ amount: 0.2 }}
         className="text-center"
       >
-        <h3 className="text-3xl">Bertenaga super untuk pro.</h3>
-        <p className="text-lg my-2 text-gray-500">
+        <h3 className="text-xl md:text-3xl">Bertenaga super untuk pro.</h3>
+        <p className="text-base md:text-lg my-2 text-gray-500">
           Cek kembali untuk informasi ketersediaan.
         </p>
         <a
-          className="text-xl no-underline text-blue-700 hover:underline"
+          className="text-lg md:text-xl no-underline text-blue-700 hover:underline"
           href="#"
         >
           Selengkapnya

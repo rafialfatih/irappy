@@ -25,13 +25,15 @@ const Header = () => {
                 </a>
               </Link>
               <Link href="/">
-                <a className="text-gray-100 text-lg ml-8">Profile</a>
+                <a className="text-gray-100 text-base md:text-lg ml-8">
+                  Profile
+                </a>
               </Link>
               <Link href="/">
-                <a className="text-gray-100 text-lg ml-5">About</a>
+                <a className="text-gray-100 text-base md:text-lg ml-5">About</a>
               </Link>
               <Link href="blog">
-                <a className="text-gray-100 text-lg ml-5">Blog</a>
+                <a className="text-gray-100 text-base md:text-lg ml-5">Blog</a>
               </Link>
             </div>
           </div>

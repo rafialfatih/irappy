@@ -29,7 +29,7 @@ const variantText = {
 
 const Contents = () => {
   return (
-    <div className="bg-gray-50 my-3 py-12">
+    <div className="bg-gray-50 my-3 py-8">
       <motion.h2
         variants={variantContent}
         initial="hidden"
@@ -46,10 +46,10 @@ const Contents = () => {
         viewport={{ amount: 0.2 }}
       >
         <img
-          className="mx-auto"
+          className="mx-auto my-3"
           src="/img/macbook15.png"
-          width={700}
-          height={250}
+          width={600}
+          height={150}
         />
       </motion.div>
       <motion.div
@@ -60,7 +60,7 @@ const Contents = () => {
         className="text-center"
       >
         <h3 className="text-3xl">Bertenaga super untuk pro.</h3>
-        <p className="text-lg my-3 text-gray-500">
+        <p className="text-lg my-2 text-gray-500">
           Cek kembali untuk informasi ketersediaan.
         </p>
         <a

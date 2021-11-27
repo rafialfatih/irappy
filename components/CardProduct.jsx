@@ -40,7 +40,7 @@ const CardProduct = () => {
           viewport={{ amount: 0.1 }}
           className="overflow-hidden md:h-screen md:w-1/2 py-4 bg-white shadow-lg rounded-lg"
         >
-          <h2 className="text-gray-800 text-3xl text-center my-5 mx-8 font-semibold">
+          <h2 className="text-gray-800 text-2xl md:text-3xl text-center my-5 mx-8 font-semibold">
             AirPods
           </h2>
           <img src="/img/airpods_07.png" className="" alt="Air Pods" />
@@ -53,7 +53,7 @@ const CardProduct = () => {
           <div className="flex justify-center mt-4">
             <a
               href="#"
-              className="text-xl no-underline text-blue-700 hover:underline"
+              className="text-lg md:text-xl no-underline text-blue-700 hover:underline"
             >
               Selengkapnya
             </a>
@@ -66,7 +66,7 @@ const CardProduct = () => {
           viewport={{ amount: 0.1 }}
           className="overflow-hidden md:h-screen md:w-1/2 py-4 px-8 bg-white shadow-lg rounded-lg"
         >
-          <h2 className="text-gray-800 text-3xl my-5 text-right font-semibold">
+          <h2 className="text-gray-800 text-2xl md:text-3xl my-5 text-right font-semibold">
             iPad Mini
           </h2>
           <p className="mt-2 text-gray-600">
@@ -78,7 +78,7 @@ const CardProduct = () => {
           <div className="flex justify-center mt-4">
             <a
               href="#"
-              className="text-xl no-underline text-blue-700 hover:underline"
+              className="text-lg md:text-xl no-underline text-blue-700 hover:underline"
             >
               Selengkapnya
             </a>
@@ -95,7 +95,7 @@ const CardProduct = () => {
           className="overflow-hidden md:h-screen md:w-1/2 py-4 px-8 bg-white shadow-lg rounded-lg"
         >
           <img src="/img/apple_watch.png" alt="Air Pods" />
-          <h2 className="text-gray-800 text-3xl my-5 font-semibold">
+          <h2 className="text-gray-800 text-2xl md:text-3xl my-5 font-semibold">
             Apple Watch
           </h2>
           <p className="mt-2 text-gray-600">
@@ -107,7 +107,7 @@ const CardProduct = () => {
           <div className="flex justify-center mt-4">
             <a
               href="#"
-              className="text-xl no-underline text-blue-700 hover:underline"
+              className="text-lg md:text-xl no-underline text-blue-700 hover:underline"
             >
               Selengkapnya
             </a>
@@ -120,7 +120,7 @@ const CardProduct = () => {
           viewport={{ amount: 0.1 }}
           className="overflow-hidden md:h-screen md:w-1/2 py-4 px-8 bg-white shadow-lg rounded-lg"
         >
-          <h2 className="text-gray-800 text-3xl my-5 text-center my-2 font-semibold">
+          <h2 className="text-gray-800 text-2xl md:text-3xl my-5 text-center my-2 font-semibold">
             iPhone 13 Pro Max
           </h2>
           <p className="mt-2 text-gray-600">
@@ -132,7 +132,7 @@ const CardProduct = () => {
           <div className="flex justify-center my-6">
             <a
               href="#"
-              className="text-xl no-underline text-blue-700 hover:underline"
+              className="text-lg md:text-xl no-underline text-blue-700 hover:underline"
             >
               Selengkapnya
             </a>

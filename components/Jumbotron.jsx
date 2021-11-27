@@ -38,8 +38,7 @@ const Jumbotron = () => {
         initial="hidden"
         whileInView="visible"
         variants={variantContent}
-        viewport={{ amount: 0.1 }}
-        className="container mx-auto px-14 block md:flex justify-between items-center"
+        className="mx-auto px-14 block md:flex justify-between items-center"
       >
         <div className="mr-5">
           <h2 className="text-4xl font-bold mb-2 text-white">

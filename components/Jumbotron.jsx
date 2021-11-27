@@ -33,12 +33,12 @@ const variantButton = {
 
 const Jumbotron = () => {
   return (
-    <div className="pb-20 pt-2 sm:pt-6 gradient-bg">
+    <div className="pb-20 w-full pt-2 sm:pt-6 gradient-bg">
       <motion.div
         initial="hidden"
         whileInView="visible"
         variants={variantContent}
-        viewport={{ amount: 0.2 }}
+        viewport={{ amount: 0.1 }}
         className="container mx-auto px-14 block md:flex justify-between items-center"
       >
         <div className="mr-5">

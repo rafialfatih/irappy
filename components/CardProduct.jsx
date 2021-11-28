@@ -89,7 +89,7 @@ const CardProduct = () => {
           <div className="flex justify-center mt-1">
             <a
               href="#"
-              className="text-md md:text-lg no-underline text-blue-700 hover:underline"
+              className="text-md md:text-lg no-underline mb-4 text-blue-700 hover:underline"
             >
               Selengkapnya
             </a>

@@ -53,7 +53,7 @@ const CardProduct = () => {
           </div>
           <img
             src="/img/airpods_07.png"
-            className="absolute bottom-0 left-0"
+            className="md:absolute bottom-0 left-0"
             alt="Air Pods"
           />
         </motion.div>

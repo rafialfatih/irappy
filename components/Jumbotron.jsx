@@ -38,10 +38,10 @@ const Jumbotron = () => {
         initial="hidden"
         whileInView="visible"
         variants={variantContent}
-        className="text-center md:text-left mx-auto px-14 block md:flex justify-between items-center"
+        className="text-center md:text-left px-7 md:px-14 block md:flex justify-between items-center"
       >
-        <div className="mt-5 mx-auto md:mr-5">
-          <h2 className="text-2xl md:text-4xl font-bold mb-2 text-white">
+        <div className="mt-5 md:mr-5">
+          <h2 className="text-2xl md:text-4xl font-bold mb-3 text-white">
             Smart Health Monitoring Wristwatch!
           </h2>
           <h3 className="text-md md:text-2xl mb-8 text-gray-200">

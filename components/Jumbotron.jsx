@@ -60,9 +60,6 @@ const Jumbotron = () => {
             Pre Order
           </motion.button>
         </div>
-        <div className="mx-auto mt-4 h-80 w-80 md:h-1/2 md:w-1/2">
-          <img src="/img/smart-watch.png" />
-        </div>
       </motion.div>
     </div>
   );

@@ -38,13 +38,13 @@ const Jumbotron = () => {
         initial="hidden"
         whileInView="visible"
         variants={variantContent}
-        className="mx-auto px-14 block md:flex justify-between items-center"
+        className="text-center md:text-left mx-auto px-14 block md:flex justify-between items-center"
       >
-        <div className="mr-5">
-          <h2 className="text-4xl font-bold mb-2 text-white">
+        <div className="mt-5 mx-auto md:mr-5">
+          <h2 className="text-2xl md:text-4xl font-bold mb-2 text-white">
             Smart Health Monitoring Wristwatch!
           </h2>
-          <h3 className="text-2xl mb-8 text-gray-200">
+          <h3 className="text-md md:text-2xl mb-8 text-gray-200">
             Monitor your health vitals smartly anywhere you go.
           </h3>
 
@@ -59,6 +59,9 @@ const Jumbotron = () => {
           >
             Pre Order
           </motion.button>
+        </div>
+        <div className="mx-auto mt-4 h-64 w-64 md:h-1/2 md:w-1/2">
+          <img src="/img/smart-watch.png" />
         </div>
       </motion.div>
     </div>

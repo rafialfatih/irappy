@@ -2,8 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-import macbook from "../public/img/macbook15.png";
-
 const variantContent = {
   hidden: {
     opacity: 0,
@@ -65,11 +63,11 @@ const Contents = () => {
           className="text-center"
         >
           <h3 className="text-xl md:text-3xl">Bertenaga super untuk pro.</h3>
-          <p className="text-base md:text-lg my-2 text-gray-500">
+          <p className="text-xs md:text-lg my-2 text-gray-500">
             Cek kembali untuk informasi ketersediaan.
           </p>
           <a
-            className="text-lg md:text-xl no-underline text-blue-700 hover:underline"
+            className="text-md md:text-xl no-underline text-blue-700 hover:underline"
             href="#"
           >
             Selengkapnya

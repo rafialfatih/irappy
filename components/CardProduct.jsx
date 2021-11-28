@@ -37,7 +37,7 @@ const CardProduct = () => {
           variants={variantLeft}
           initial="hidden"
           whileInView="visible"
-          className="overflow-hidden md:h-screen md:w-1/2 pt-4 bg-white shadow-lg rounded-lg"
+          className="overflow-hidden md:relative md:h-screen md:w-1/2 pt-4 bg-white shadow-lg rounded-lg"
         >
           <h2 className="text-gray-800 text-2xl md:text-3xl text-center mt-5 mx-8 font-semibold">
             AirPods
@@ -51,7 +51,11 @@ const CardProduct = () => {
               Selengkapnya
             </a>
           </div>
-          <img src="/img/airpods_07.png" className="mt-9" alt="Air Pods" />
+          <img
+            src="/img/airpods_07.png"
+            className="absolute bottom-0 left-0"
+            alt="Air Pods"
+          />
         </motion.div>
         <motion.div
           variants={variantRight}

@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const variantContent = {
   hidden: {
@@ -45,11 +46,13 @@ const Contents = () => {
         whileInView="visible"
         viewport={{ amount: 0.2 }}
       >
-        <img
+        <Image
           className="mx-auto my-3"
           src="/img/macbook15.png"
-          width={600}
-          height={150}
+          width="100%"
+          height="32%"
+          layout="responsive"
+          objectFit="contain"
         />
       </motion.div>
       <motion.div

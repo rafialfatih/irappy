@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 import { motion } from "framer-motion";
 
@@ -61,7 +62,13 @@ const Jumbotron = () => {
           </motion.button>
         </div>
         <div className="mx-auto mt-4 h-64 w-64 md:h-1/2 md:w-1/2">
-          <img src="/img/smart-watch.png" />
+          <Image
+            src="/img/smart-watch.png"
+            width="100%"
+            height="100%"
+            layout="responsive"
+            objectFit="contain"
+          />
         </div>
       </motion.div>
     </div>
